@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <sys/types.h>
 
 typedef struct {
     size_t width;
@@ -124,7 +125,7 @@ static void draw_Taijitu(Image *image, int radius, int value) {
 
 }
 
-int main(int argc, char *argv[]) {
+int main1(int argc, char *argv[]) {
     Image *image;
 
     image = image_new(800, 800);

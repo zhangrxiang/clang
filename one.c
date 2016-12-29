@@ -30,7 +30,7 @@ int tt(){
 //    h) 一个有10个指针的数组，该指针指向一个函数，该函数有一个整型参数并返回一个整型数 （ An array of ten pointers to functions that take an integer argument and return an integer ）
     int (*a8[10])(int); // An array of 10 pointers to functions that take an integer argument and return an integer
 }
-int main2(){
+int main22(){
 
 //    printf("HelloWorld\n");
 //    int sum = add(1,2);
