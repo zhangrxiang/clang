@@ -21,7 +21,7 @@ void swap(int *a ,int *b);
 void print(){
     printf("*************************************************************\n");
 }
-int main(){
+int main1(){
     int i = 1;
     double d = 1.0000;
     char c = 'a';
