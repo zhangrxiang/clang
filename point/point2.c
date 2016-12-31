@@ -4,7 +4,7 @@
 //
 // Created by zhang on 2016/12/30.
 //
-int main(){
+int main11(){
 //指针是一个特殊的变量，它里面存储的数值被解释成为内存里的一个地址。
 //指针的类型，指针所指向的 类型，指针的值或者叫指针所指向的内存区，还有指针本身所占据的内存区
 
@@ -44,8 +44,9 @@ int main(){
         pc2++;
     }
     printf("%lu\n",strlen(a));
-    for (int i = 0; i < strlen(a); ++i) {
-        printf("%c----%d\n",a[i],a[i]);
+    int i1 = 0;
+    for (; i1 < strlen(a); ++i1) {
+        printf("%c----%d\n",a[i1],a[i1]);
     }
 
     int iArr[12] = {10, 20, 30, 40, 60};
