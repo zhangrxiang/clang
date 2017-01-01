@@ -25,7 +25,7 @@ void structArgus(struct Student student);
 
 void structPoint(struct Student *pStudent);
 
-int main(){
+int stru_main(){
     struct Student student,student2;
     struct Student *ps,*ps2;
     ps = &student;
