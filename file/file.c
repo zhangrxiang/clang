@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <time.h>
 
-int main(){
+int file_main(){
 
     FILE *fp;
     printf(__FILE__"\n");
