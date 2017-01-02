@@ -20,7 +20,7 @@ union Student{
     int id;
     char name[20];
 };
-int main(){
+int typedef_main(){
     INT anInt = 10;
     PINT pint = &anInt;
     printf("%d\n",anInt);
