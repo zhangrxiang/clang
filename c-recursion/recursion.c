@@ -12,7 +12,7 @@ int factorial(int num);
 long fibonaci(int num);
 double average(int num,...);
 
-int main(){
+int re_main(){
     int num;
     char ch[100] = {'a','b','c','d','e','f','g'};
     int len = strlen(ch);
