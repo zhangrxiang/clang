@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main()
+int toupper_main()
 {
     int i = 0;
     char c;
