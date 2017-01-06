@@ -13,7 +13,7 @@
 #include <time.h>
 #include <stdio.h>
 
-int main(){
+int ctime_main(){
     time_t curtime;
     time_t i = time(&curtime);
     printf("%ld\n",i/3600/24/365+1970);
