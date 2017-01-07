@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main ()
+int memmove_main ()
 {
     const char dest[] = "oldstring";
     const char dest2[] = "new";
