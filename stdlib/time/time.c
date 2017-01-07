@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <time.h>
 
-int main ()
+int time_main ()
 {
     time_t seconds;
 
