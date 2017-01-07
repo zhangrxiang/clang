@@ -13,7 +13,7 @@
 int main ()
 {
     const char dest[] = "oldstring";
-    const char dest2[] = "news";
+    const char dest2[] = "new";
     const char src[]  = "newstring";
 
     printf("Before memmove dest = %s, src = %s\n", dest, src);
@@ -21,7 +21,8 @@ int main ()
     printf("After memmove dest = %s, src = %s\n", dest, src);
 //    Before memmove dest = oldstring, src = newstring
 //    After memmove dest = newstring, src = newstring
-    memmove((void *) dest2, src, 9);
+    memmove((void *) dest2, src, strlen(dest2));
 //  todo??
+    //new
     printf("After memmove dest2 = %s, src = %s\n", dest2, src);
 }
