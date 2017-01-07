@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <time.h>
 
-int main ()
+int localtime_main ()
 {
     time_t rawtime;
     struct tm *info;
@@ -18,6 +18,7 @@ int main ()
     time( &rawtime );
 
     info = localtime( &rawtime );
+//    Sat Jan 07 23:12:30 2017
     printf("now location time and date is: %s", asctime(info));
     return(0);
 }
