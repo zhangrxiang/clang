@@ -4,9 +4,12 @@
     <option name="PER_PROJECT_SETTINGS">
       <value>
         <Objective-C-extensions>
+<<<<<<< HEAD
           <option name="GENERATE_INSTANCE_VARIABLES_FOR_PROPERTIES" value="ASK" />
           <option name="RELEASE_STYLE" value="IVAR" />
           <option name="TYPE_QUALIFIERS_PLACEMENT" value="BEFORE" />
+=======
+>>>>>>> origin/master
           <file>
             <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
             <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Macro" />

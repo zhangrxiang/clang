@@ -50,7 +50,7 @@ NUM = 2
 //__FILE__	这会包含当前文件名，一个字符串常量。
 //__LINE__	这会包含当前行号，一个十进制常量。
 //__STDC__	当编译器以 ANSI 标准编译时，则定义为 1。
-int main() {
+int pre_main() {
     printf("File :%s\n", __FILE__ );
     printf("Date :%s\n", __DATE__ );
     printf("Time :%s\n", __TIME__ );
