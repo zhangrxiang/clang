@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 #include <stdarg.h>
-#include <mem.h>
+#include <string.h>
 
 int factorial(int num);
 long fibonaci(int num);
