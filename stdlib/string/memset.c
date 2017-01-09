@@ -20,4 +20,3 @@ int memset_main() {
 
     puts(str);
 }
-

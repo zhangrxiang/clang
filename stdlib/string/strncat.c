@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main ()
+int strncat_main ()
 {
     char src[50], dest[50];
 
